@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   Say-Hello-World:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Step-One
         run: echo "Hello from the first work flow"
